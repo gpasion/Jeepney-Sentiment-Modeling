@@ -53,6 +53,10 @@ Uses Random Forests, Decision Tree, & Logistic Regression models to predict twit
     │   ├── __init__.py 
     │   ├── predict.py          <- Code to run model inference with trained models          
     │   └── train.py            <- Code to train models
+    |   └── phaseout_modeling_decisiontree.py      <- Decision Tree Model
+    |   └── phaseout_modeling_logreg.py            <- Logistic Regression Model
+    |   └── phaseout_modeling_randforest.py        <- Random Forest Model
+    |
     │
     └── plots.py                <- Code to create visualizations
 ```
