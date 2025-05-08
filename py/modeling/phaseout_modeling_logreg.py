@@ -18,7 +18,7 @@ analyzer = SentimentIntensityAnalyzer()
 translator = Translator()
 
 # Read your CSV (make sure it has sentiment scores, not just 'positive'/'negative' words)
-df_filtered = pd.read_csv('/Users/gpasion/Documents/INST414/sentiments.csv')
+df_filtered = pd.read_csv('data/processed/sentiments.csv')
 
 # 👇 Instead of mapping "positive"/"negative", use the raw sentiment scores
 # Assume your CSV has a column called 'sentiment_score' (the numbers you showed)

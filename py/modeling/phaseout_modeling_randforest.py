@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 # Load your data
-df = pd.read_csv("/Users/gpasion/Documents/INST414/sentiments.csv")
+df = pd.read_csv("data/processed/sentiments.csv")
 
 # Vectorize the tweet text
 vectorizer = TfidfVectorizer(max_features=500)

@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report
 
-df = pd.read_csv("/Users/gpasion/Documents/INST414/sentiments.csv")
+df = pd.read_csv("data/processed/sentiments.csv")
 
 # Vectorize the tweet text
 vectorizer = TfidfVectorizer(max_features=500)
