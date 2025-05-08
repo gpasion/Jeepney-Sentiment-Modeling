@@ -3,7 +3,7 @@ import glob
 import os
 
 # Set the path where your CSV files are stored
-csv_folder = 'data/raw'  # update this
+csv_folder = 'data/raw/dataset_uncombined'  # update this
 csv_files = glob.glob(os.path.join(csv_folder, '*.csv'))
 
 # Read and combine all CSV files
