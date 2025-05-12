@@ -4,7 +4,20 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
+## Description
+
 Uses Random Forests, Decision Tree, & Logistic Regression models to predict twitter posts are for or against the jeepney phaseout in the Philippines
+
+Warning: Bias exists in the project and requires more raw data to train the models. 
+
+## Main files and how to replicate
+
+All datasets required can be found in the "data folder." The sentiments.csv file is the dataset that has the most up to date and cleaned data for this project. 
+Some initial warnings: Some of the text data has not been perfectly translated to English. 
+
+In order to run the models and see the model accuracy and results, refer to py/modeling and run each of the three phaseout files. These should output three different tables on their classification reports.
+The logistic regression file will also display a confusion matrix for interpretability.
+The decision tree model will also display the root node and it's branches.
 
 ## Project Organization
 
@@ -13,7 +26,7 @@ Uses Random Forests, Decision Tree, & Logistic Regression models to predict twit
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
-│   ├── external       <- Data from third party sources.
+│   ├── external       <- Data from third party sources. (Data was collected by self)
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
